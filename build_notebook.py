@@ -3,9 +3,12 @@ import json
 def create_markdown_cell(source):
     if isinstance(source, str):
         source = [line + '\n' for line in source.split('\n')]
-        # Remove trailing newline from the last element if present to conform to standard structure
-        if len(source) > 0 and source[-1].endswith('\n') and source[-1] == '\n':
-            source[-1] = source[-1][:-1]
+    elif isinstance(source, list):
+        source = [line + '\n' if not line.endswith('\n') else line for line in source]
+    
+    if len(source) > 0 and source[-1].endswith('\n'):
+        source[-1] = source[-1][:-1]
+        
     return {
         "cell_type": "markdown",
         "metadata": {},
@@ -15,6 +18,12 @@ def create_markdown_cell(source):
 def create_code_cell(source):
     if isinstance(source, str):
         source = [line + '\n' for line in source.split('\n')]
+    elif isinstance(source, list):
+        source = [line + '\n' if not line.endswith('\n') else line for line in source]
+        
+    if len(source) > 0 and source[-1].endswith('\n'):
+        source[-1] = source[-1][:-1]
+        
     return {
         "cell_type": "code",
         "execution_count": None,
