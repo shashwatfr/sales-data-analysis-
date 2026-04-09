@@ -1,7 +1,5 @@
 # Sales Data Analysis and Business Insights 📊
-
-Welcome to my Data Science portfolio project! 
-
+ 
 ## 🎯 Project Objective
 The main goal of this project is to perform an end-to-end Exploratory Data Analysis (EDA) on the "Superstore" dataset to extract actionable business insights regarding sales, profit, and growth opportunities.
 
