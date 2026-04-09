@@ -29,8 +29,3 @@ The objective of this project is to analyze retail sales data to identify revenu
 4. Open `Sales_Data_Analysis_Project.ipynb` and click **"Run All"** to view the interactive plots and analysis.
 
 ---
-
-### 📷 Visual Previews
-*(If you are viewing this on GitHub, here are some highlights from the analysis!)*
-
-> **[📝 Note for Author: Upload screenshots of your best charts (like the Donut chart or Time-Series chart) to this repository and link them here to make your README look incredibly professional!]**
