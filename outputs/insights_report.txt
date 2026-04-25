@@ -1,0 +1,26 @@
+=========================================
+SALES PERFORMANCE ANALYTICS INSIGHTS
+=========================================
+
+OVERALL PERFORMANCE:
+- Total Sales: $2,297,200.86
+- Total Profit: $286,397.02
+- Total Orders: 5,009
+- Total Quantity Sold: 37,873
+- Average Order Value: $458.61
+
+PRODUCT INSIGHTS:
+- Best Selling Product: Canon imageCLASS 2200 Advanced Copier ($61,599.82)
+- Most Profitable Product: Canon imageCLASS 2200 Advanced Copier ($25,199.93)
+- Biggest Loss Making Product: Cubify CubeX 3D Printer Double Head Print ($-8,879.97)
+
+GEOGRAPHICAL INSIGHTS:
+- Best Performing Region: West ($725,457.82)
+
+CUSTOMER INSIGHTS:
+- Maximum Revenue Generating Segment: Consumer
+
+STRATEGIC RECOMMENDATIONS:
+- High discounts are severely hurting profitability, particularly in certain categories. We recommend capping discounts at 20%.
+- The Consumer segment is the most lucrative. Marketing efforts should prioritize this segment.
+- Consider discontinuing or re-evaluating the pricing strategy for the top loss-making products.
